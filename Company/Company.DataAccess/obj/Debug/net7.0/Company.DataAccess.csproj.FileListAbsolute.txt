@@ -1,0 +1,17 @@
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\bin\Debug\net7.0\Company.DataAccess.deps.json
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\bin\Debug\net7.0\Company.DataAccess.runtimeconfig.json
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\bin\Debug\net7.0\Company.DataAccess.dll
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\bin\Debug\net7.0\Company.DataAccess.pdb
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\bin\Debug\net7.0\Company.Entity.dll
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\bin\Debug\net7.0\Company.Entity.pdb
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\obj\Debug\net7.0\Company.DataAccess.csproj.AssemblyReference.cache
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\obj\Debug\net7.0\Company.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\obj\Debug\net7.0\Company.DataAccess.AssemblyInfoInputs.cache
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\obj\Debug\net7.0\Company.DataAccess.AssemblyInfo.cs
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\obj\Debug\net7.0\Company.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\obj\Debug\net7.0\Company.DataAccess.csproj.CopyComplete
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\obj\Debug\net7.0\Company.DataAccess.dll
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\obj\Debug\net7.0\refint\Company.DataAccess.dll
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\obj\Debug\net7.0\Company.DataAccess.pdb
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\obj\Debug\net7.0\Company.DataAccess.genruntimeconfig.cache
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.DataAccess\obj\Debug\net7.0\ref\Company.DataAccess.dll

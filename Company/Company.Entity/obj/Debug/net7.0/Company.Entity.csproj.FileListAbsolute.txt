@@ -1,0 +1,11 @@
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Entity\bin\Debug\net7.0\Company.Entity.deps.json
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Entity\bin\Debug\net7.0\Company.Entity.dll
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Entity\bin\Debug\net7.0\Company.Entity.pdb
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Entity\obj\Debug\net7.0\Company.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Entity\obj\Debug\net7.0\Company.Entity.AssemblyInfoInputs.cache
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Entity\obj\Debug\net7.0\Company.Entity.AssemblyInfo.cs
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Entity\obj\Debug\net7.0\Company.Entity.csproj.CoreCompileInputs.cache
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Entity\obj\Debug\net7.0\Company.Entity.dll
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Entity\obj\Debug\net7.0\refint\Company.Entity.dll
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Entity\obj\Debug\net7.0\Company.Entity.pdb
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Entity\obj\Debug\net7.0\ref\Company.Entity.dll

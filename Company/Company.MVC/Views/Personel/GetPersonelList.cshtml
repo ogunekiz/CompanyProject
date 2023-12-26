@@ -1,0 +1,58 @@
+﻿@using Company.Entity.Concrete
+@model IEnumerable<Personel>
+
+@{
+    ViewData["Title"] = "Personel List Screen";
+}
+
+<h4>Personel List</h4>
+
+<table class="table table-sm table-striped table-bordered m-2">
+    <thead>
+        <tr>
+            <th align="center">
+                @Html.DisplayNameFor(model => model.No)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SurName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.No)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SurName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+
+    tr {
+        text-align: center
+    }
+
+    td {
+        text-align: center
+    }
+
+</style>

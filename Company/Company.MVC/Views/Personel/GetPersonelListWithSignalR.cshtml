@@ -1,0 +1,102 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personel Listesi</title>
+    <style>
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table id="personelTable">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+
+    @section Scripts {
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.12/signalr.min.js"></script>
+
+        <script>
+            var connection = new signalR.HubConnectionBuilder()
+                .withUrl("http://localhost:1616/personelHub")
+                .build();
+
+            connection.on("PersonelList", function () {
+                getPersonelData();
+            });
+
+            connection.start()
+                .then(() => console.log("SignalR connected!"))
+                .catch((error) => console.error("SignalR connection failed: " + error));
+
+            async function getPersonelData() {
+                try {
+                    const response = await fetch('http://localhost:1616/api/Personel/GetPersonelList');
+                    if (!response.ok) {
+                        throw new Error('API\'den veri alınamadı.');
+                    }
+                    const data = await response.json();
+                    refreshPersonelList(data);
+                } catch (error) {
+                    console.error('Hata:', error);
+                }
+            }
+
+
+            function refreshPersonelList(personelData) {
+                const tableBody = document.querySelector('#personelTable tbody');
+                tableBody.innerHTML = '';
+
+                personelData.forEach(personel => {
+                    const row = tableBody.insertRow();
+                    const cellNo = row.insertCell(0);
+                    const cellName = row.insertCell(1);
+                    const cellSurname = row.insertCell(2);
+                    const cellCity = row.insertCell(3);
+
+                    cellNo.textContent = personel.No;
+                    cellName.textContent = personel.Name;
+                    cellSurname.textContent = personel.SurName;
+                    cellCity.textContent = personel.City;
+                });
+            }
+
+            getPersonelData();
+
+        </script>
+    }
+</body>
+</html>

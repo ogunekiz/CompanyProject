@@ -1,0 +1,376 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.MVC\\Company.MVC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.API\\Company.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.API\\Company.API.csproj",
+        "projectName": "Company.API",
+        "projectPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.API\\Company.API.csproj",
+        "packagesPath": "C:\\Users\\pixel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pixel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\pixel\\Desktop": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Business\\Company.Business.csproj": {
+                "projectPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Business\\Company.Business.csproj"
+              },
+              "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.DataAccess\\Company.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.DataAccess\\Company.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Business\\Company.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Business\\Company.Business.csproj",
+        "projectName": "Company.Business",
+        "projectPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Business\\Company.Business.csproj",
+        "packagesPath": "C:\\Users\\pixel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pixel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\pixel\\Desktop": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.DataAccess\\Company.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.DataAccess\\Company.DataAccess.csproj"
+              },
+              "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Entity\\Company.Entity.csproj": {
+                "projectPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Entity\\Company.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.DataAccess\\Company.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.DataAccess\\Company.DataAccess.csproj",
+        "projectName": "Company.DataAccess",
+        "projectPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.DataAccess\\Company.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\pixel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pixel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\pixel\\Desktop": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Entity\\Company.Entity.csproj": {
+                "projectPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Entity\\Company.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Entity\\Company.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Entity\\Company.Entity.csproj",
+        "projectName": "Company.Entity",
+        "projectPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Entity\\Company.Entity.csproj",
+        "packagesPath": "C:\\Users\\pixel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pixel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\pixel\\Desktop": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.MVC\\Company.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.MVC\\Company.MVC.csproj",
+        "projectName": "Company.MVC",
+        "projectPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.MVC\\Company.MVC.csproj",
+        "packagesPath": "C:\\Users\\pixel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.MVC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pixel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\pixel\\Desktop": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.API\\Company.API.csproj": {
+                "projectPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.API\\Company.API.csproj"
+              },
+              "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Entity\\Company.Entity.csproj": {
+                "projectPath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.Entity\\Company.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

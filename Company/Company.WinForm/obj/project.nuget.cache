@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1RXe/LENx3A4fKGPGh31F0rSS6EZgA1gvOxeiQr0BxMRUMgw8cVMQxxvTGcpL9O1VPwQKER22KP8faX0xYi58w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pixel\\Documents\\MyProjects\\GlosyProject\\Company\\Company.WinForm\\Company.WinForm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pixel\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

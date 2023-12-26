@@ -1,0 +1,20 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">No</th>
+      <th scope="col">Name</th>
+      <th scope="col">SurName</th>
+      <th scope="col">City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let person of personelList">
+      <th scope="row">{{person.Id}}</th>
+      <td>{{person.No}}</td>
+      <td>{{person.Name}}</td>
+      <td>{{person.SurName}}</td>
+      <td>{{person.City}}</td>
+    </tr>
+  </tbody>
+</table>

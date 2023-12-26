@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Company.API</name>
+    </assembly>
+    <members>
+        <member name="M:Company.API.Controllers.PersonelController.GetPersonel(System.Int32)">
+            <summary>
+            Returns a personel information.
+            </summary>
+            <param name="id"></param>
+            <returns>The requested personel.</returns>
+        </member>
+        <member name="M:Company.API.Controllers.PersonelController.GetPersonelList">
+            <summary>
+            Returns a list of personels.
+            </summary>
+            <returns>The requested personel list.</returns>
+        </member>
+        <member name="M:Company.API.Controllers.PersonelController.AddPersonelAsync(Company.Entity.Concrete.Personel)">
+            <summary>
+            Creates a new personel registration.
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Company.API.Controllers.PersonelController.UpdatePersonelAsync(Company.Entity.Concrete.Personel)">
+            <summary>
+            Updates a personel information.
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Company.API.Controllers.PersonelController.DeletePersonelAsync(System.Int32)">
+            <summary>
+            Deletes a personel information.
+            </summary>
+            <param name="id"></param>
+            <returns></returns> 
+        </member>
+    </members>
+</doc>

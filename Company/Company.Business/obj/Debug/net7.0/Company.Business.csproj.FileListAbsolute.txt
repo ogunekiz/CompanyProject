@@ -1,0 +1,17 @@
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\bin\Debug\net7.0\Company.Business.deps.json
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\bin\Debug\net7.0\Company.Business.dll
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\bin\Debug\net7.0\Company.Business.pdb
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\bin\Debug\net7.0\Company.DataAccess.dll
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\bin\Debug\net7.0\Company.Entity.dll
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\bin\Debug\net7.0\Company.DataAccess.pdb
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\bin\Debug\net7.0\Company.Entity.pdb
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\obj\Debug\net7.0\Company.Business.csproj.AssemblyReference.cache
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\obj\Debug\net7.0\Company.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\obj\Debug\net7.0\Company.Business.AssemblyInfoInputs.cache
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\obj\Debug\net7.0\Company.Business.AssemblyInfo.cs
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\obj\Debug\net7.0\Company.Business.csproj.CoreCompileInputs.cache
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\obj\Debug\net7.0\Company.Business.csproj.CopyComplete
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\obj\Debug\net7.0\Company.Business.dll
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\obj\Debug\net7.0\refint\Company.Business.dll
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\obj\Debug\net7.0\Company.Business.pdb
+C:\Users\pixel\Documents\MyProjects\GlosyProject\Company\Company.Business\obj\Debug\net7.0\ref\Company.Business.dll
